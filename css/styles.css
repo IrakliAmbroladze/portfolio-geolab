@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 header {
   height: 50px;
   width: 100%;
@@ -22,7 +28,58 @@ header {
   border: 1.6px solid #21243d;
 }
 
+.wrapper {
+  width: 100%;
+  padding-top: 50px;
+}
+
 main {
-  height: 2000px;
   background-color: hotpink;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 33px 0 58px;
+}
+
+.avatar {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  width: 200px;
+  text-align: center;
+  line-height: 40px;
+  color: #21243d;
+  margin: 43px 0 21px;
+}
+
+.bio {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  width: 340px;
+  text-align: center;
+}
+
+.download {
+  border: none;
+  background-color: #ff6464;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1em;
+  color: #fff;
+  width: 208px;
+  height: 47px;
+  border-radius: 2px;
+  margin: 27px 0 0;
+  cursor: pointer;
 }
