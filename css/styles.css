@@ -1,0 +1,28 @@
+header {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  padding: 20px 18px 12px;
+}
+
+.header {
+  display: flex;
+  justify-content: end;
+}
+
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  height: 18px;
+  justify-content: space-between;
+}
+.burger-menu-line {
+  width: 30px;
+  border: 1.6px solid #21243d;
+}
+
+main {
+  height: 2000px;
+  background-color: hotpink;
+}
