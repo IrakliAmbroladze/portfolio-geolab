@@ -188,3 +188,30 @@ header {
   border-bottom: 1px solid #e0e0e0;
   margin: 17px auto;
 }
+
+.footer {
+  width: 375px;
+  height: 182px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 26px;
+}
+
+.social-icons {
+  display: flex;
+  column-gap: 35px;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  font-size: 10px;
+  object-fit: cover;
+}
+.copyright {
+  font-size: 14px;
+  color: #21243d;
+}
