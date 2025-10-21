@@ -9,6 +9,7 @@
   }
 }
 header {
+  height: 70px;
   padding: 27px 60px 12px;
 }
 .burger-menu {
@@ -67,4 +68,30 @@ header {
   width: calc(100% - 60px);
   justify-content: space-between;
   align-items: center;
+}
+
+.featured-work-card {
+  width: calc(100% - 60px);
+}
+.feature-img {
+  max-width: 246px;
+  max-height: 180px;
+}
+
+.work-card-main {
+  display: flex;
+  column-gap: 18px;
+}
+
+.main-bottom-line {
+  max-width: 858px;
+  margin: 31px auto;
+}
+
+.featured-work-title {
+  margin-top: 0;
+}
+
+.featured-works {
+  align-items: start;
 }

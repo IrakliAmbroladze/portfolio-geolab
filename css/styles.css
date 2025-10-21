@@ -199,7 +199,7 @@ header {
 }
 
 .main-bottom-line {
-  width: 339px;
+  max-width: 339px;
   border-bottom: 1px solid #e0e0e0;
   margin: 17px auto;
 }
