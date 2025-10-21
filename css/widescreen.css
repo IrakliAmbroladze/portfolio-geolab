@@ -1,0 +1,16 @@
+header {
+  padding: 27px 60px 12px;
+}
+.burger-menu {
+  display: none;
+}
+.nav-links {
+  display: flex;
+  column-gap: 33px;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}

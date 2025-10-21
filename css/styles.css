@@ -23,6 +23,11 @@ header {
   height: 18px;
   justify-content: space-between;
 }
+
+.nav-links {
+  display: none;
+}
+
 .burger-menu-line {
   width: 30px;
   border: 1.6px solid #21243d;
