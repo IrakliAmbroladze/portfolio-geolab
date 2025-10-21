@@ -14,3 +14,10 @@ header {
   font-weight: 500;
   color: #000;
 }
+
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 33px 0 58px;
+}
