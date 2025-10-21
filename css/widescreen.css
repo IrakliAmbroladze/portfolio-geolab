@@ -8,7 +8,6 @@
     margin: 0 30px;
   }
 }
-
 header {
   padding: 27px 60px 12px;
 }
@@ -46,4 +45,26 @@ header {
 .title,
 .bio {
   text-align: start;
+}
+
+.view-all {
+  display: inline-block;
+  color: #00a8cc;
+}
+.post-cards {
+  flex-direction: row;
+  width: calc(100% - 60px);
+  justify-content: space-around;
+  column-gap: 4px;
+}
+
+.post-card {
+  max-width: 418px;
+  margin: 0;
+}
+.posts-section-header {
+  display: flex;
+  width: calc(100% - 60px);
+  justify-content: space-between;
+  align-items: center;
 }
