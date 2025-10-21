@@ -1,3 +1,14 @@
+.container {
+  max-width: 856px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .container {
+    margin: 0 30px;
+  }
+}
+
 header {
   padding: 27px 60px 12px;
 }
@@ -13,4 +24,26 @@ header {
   font-size: 20px;
   font-weight: 500;
   color: #000;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 33px 0 58px;
+}
+
+.avatar {
+  order: 2;
+}
+
+.main-text {
+  order: 1;
+  align-items: start;
+}
+
+.title,
+.bio {
+  text-align: start;
 }
