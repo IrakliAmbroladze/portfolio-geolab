@@ -89,6 +89,20 @@ header {
   border-radius: 2px;
   margin: 27px 0 0;
   cursor: pointer;
+  transition:
+    transform 300ms,
+    box-shadow 150ms ease-in-out;
+}
+
+.download:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 13px 3px rgba(137, 76, 76, 0.75);
+  -webkit-box-shadow: 0px 0px 13px 3px rgba(137, 76, 76, 0.75);
+  -moz-box-shadow: 0px 0px 13px 3px rgba(137, 76, 76, 0.75);
+}
+
+.download:active {
+  transform: scale(0.95);
 }
 
 .recent-posts,
@@ -124,6 +138,11 @@ header {
   margin: 0 auto;
   box-shadow: 0 4px 10px 0 rgba(187, 225, 250, 0.25);
   border-radius: 4px;
+  transition: background-color 400ms ease-in-out;
+}
+.post-card:hover {
+  cursor: pointer;
+  background-color: #ffbdb3;
 }
 
 .post-card-title {
@@ -157,6 +176,11 @@ header {
   object-fit: cover;
   border-radius: 6px;
   display: block;
+  transition: transform 300ms ease-in-out;
+}
+.feature-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .featured-work-card {
