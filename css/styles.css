@@ -138,6 +138,11 @@ header {
   margin: 0 auto;
   box-shadow: 0 4px 10px 0 rgba(187, 225, 250, 0.25);
   border-radius: 4px;
+  transition: background-color 400ms ease-in-out;
+}
+.post-card:hover {
+  cursor: pointer;
+  background-color: #ffbdb3;
 }
 
 .post-card-title {
@@ -171,6 +176,11 @@ header {
   object-fit: cover;
   border-radius: 6px;
   display: block;
+  transition: transform 300ms ease-in-out;
+}
+.feature-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .featured-work-card {
